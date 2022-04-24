@@ -6,7 +6,7 @@ import 'ts-tiny-invariant'
 
 const typeDefs = gql`
     type Article @exclude(operations: [CREATE, UPDATE, DELETE]) {
-        id: ID
+        short_id: ID
         url: String
         score: Int
         title: String
